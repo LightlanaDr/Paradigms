@@ -25,6 +25,6 @@ def correlation_p(array1: list, array2: list) -> float:
 
 if __name__ == '__main__':
     array_1 = [8, 3, 8, 1]
-    array_2 = [111, 56, 34, 56]
+    array_2 = [1, 6, 4, 5]
 
     print(f"Корреляция Пирсона: {correlation_p(array_1, array_2)}")
